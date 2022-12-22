@@ -18,18 +18,18 @@ exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerN
 Hitung Mundur Tahun Baru
 ${mundur}
 
-*STATISTICS*
- • Upload : ${upload}
- • Downloads : ${download}
+➥*STATISTICS*
+ ◉ Upload : ${upload}
+ ◉ Downloads : ${download}
 
-*BOT INFO*
+➥*BOT INFO*
  • Creator : ${ownerName}
  • Bot Name : ${botName}
  • Time : ${jam}
  • Date : ${tanggal(new Date())}
  • Runtime : ${runtime(process.uptime())}
 
-*USER INFO*
+➥*USER INFO*
  • Name : ${pushname !== undefined ? pushname : '-'}
  • Status : ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
  • Limit : ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
@@ -38,7 +38,7 @@ ${mundur}
  • Role : ${role}
  
  
-*MAIN MENU*${petik}
+➥*MAIN MENU*${petik}
  • ${prefix}menu
  • ${prefix}infobot
  • ${prefix}donate
@@ -53,7 +53,7 @@ ${mundur}
  • ${prefix}runtime
  • ${prefix}listbahasa${petik}
 
-*CONVERTER/TOOLS*${petik} 
+➥*CONVERTER/TOOLS*${petik} 
  • ${prefix}sticker
  • ${prefix}stickerwm
  • ${prefix}smeme
@@ -70,7 +70,7 @@ ${mundur}
  • ${prefix}say
  • ${prefix}translate${petik}
 
-*ANONYMOUS CHATS*${petik}
+➥*ANONYMOUS CHATS*${petik}
 • ${prefix}menfess nama|62xxx|pesan
  • ${prefix}anonymous
  • ${prefix}start
@@ -78,7 +78,7 @@ ${mundur}
  • ${prefix}stop
  • ${prefix}sendprofile${petik}
 
-*STORE MENU*${petik}
+➥*STORE MENU*${petik}
  • ${prefix}list
  • ${prefix}addlist
  • ${prefix}dellist
@@ -97,7 +97,7 @@ ${mundur}
  • proses < reply chat >
  • done < reply chat >${petik}
 
-*RPG GAMES*${petik}
+➥*RPG GAMES*${petik}
  • ${prefix}inventory
  • ${prefix}mining
  • ${prefix}buy 
@@ -128,7 +128,7 @@ ${mundur}
  • ${prefix}goplanet
  • ${prefix}jualbahankimia${petik}
 
-*DOWNLOADS MENU*${petik}
+➥*DOWNLOADS MENU*${petik}
  • ${prefix}play
  • ${prefix}ytmp3
  • ${prefix}ytmp4
@@ -142,7 +142,7 @@ ${mundur}
  • ${prefix}mediafire
  • ${prefix}gitclone${petik}
 
-*GROUP MENU*${petik}
+➥*GROUP MENU*${petik}
  • ${prefix}afk
  • ${prefix}welcome
  • ${prefix}left
@@ -176,23 +176,23 @@ ${mundur}
  • ${prefix}hidetag
  • ${prefix}checksewa${petik}
 
-*GAME MENU*${petik}
+➥*GAME MENU*${petik}
  • ${prefix}tictactoe
  • ${prefix}delttt
  • ${prefix}casino
  • ${prefix}delcasino${petik}
 
-*SEARCH MENU*${petik}
+➥*SEARCH MENU*${petik}
  • ${prefix}lirik
  • ${prefix}grupwa
  • ${prefix}pinterest
  • ${prefix}ytsearch${petik}
 
-*RANDOM MENU*${petik}
+➥*RANDOM MENU*${petik}
  • ${prefix}waifu${petik}
 
 
-*BALANCE MENU*${petik}
+➥*BALANCE MENU*${petik}
  • ${prefix}topglobal
  • ${prefix}toplocal
  • ${prefix}buylimit
@@ -201,7 +201,7 @@ ${mundur}
  • ${prefix}limit
  • ${prefix}balance${petik}
 
-*STORAGE*${petik}
+➥*STORAGE*${petik}
  • ${prefix}addstik
  • ${prefix}addvn
  • ${prefix}addimg
@@ -211,7 +211,7 @@ ${mundur}
  • ${prefix}listimg
  • ${prefix}listvid${petik}
  
-*BAILEYS*${petik}
+➥*BAILEYS*${petik}
  • ${prefix}fitnah
  • ${prefix}nowa
  • ${prefix}getquoted
@@ -220,7 +220,7 @@ ${mundur}
  • ${prefix}setcmd
  • ${prefix}delcmd${petik}
 
-*OWNERS MENU*${petik}
+➥*OWNERS MENU*${petik}
  • ${prefix}autoread
  • ${prefix}autobio
  • ${prefix}autorespond
@@ -243,7 +243,7 @@ ${mundur}
  • ${prefix}addsewa
  • ${prefix}delsewa${petik}
 
-*TEXTPRO MENU*${petik}
+➥*TEXTPRO MENU*${petik}
  • ${prefix}halloween2
  • ${prefix}horror
  • ${prefix}game8bit
